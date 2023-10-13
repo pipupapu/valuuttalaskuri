@@ -2,7 +2,8 @@ import { useState } from 'react';
 import './App.css';
 import axios from 'axios';
 
-const URL =  'https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_1lHSJSycVdNzvsmmCk5HLxBQePLAFnFJDqFbt1Gw&currencies=GBP&base_currency=EUR'
+const URL =  'https://api.freecurrencyapi.com/v1/latest'
+//?apikey=fca_live_1lHSJSycVdNzvsmmCk5HLxBQePLAFnFJDqFbt1Gw&currencies=GBP&base_currency=EUR'
 
 
 function App() {//export default function currency
