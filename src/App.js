@@ -24,19 +24,19 @@ function App() {
       })
   }
   return (
-    <div id="container">
+    <div id="container-fluid">
       <form onSubmit={convert}>
         <div>
-          <label>EUR</label>
+          <label><h2>EUR</h2></label>
           <input type="number" step="0.01" value={eur} onChange={e => setEur(e.target.value)} />
           <output>{rate}</output>
         </div>
         <div>
-          <label>GBP</label>
-          <output>{gbp.toFixed(2)} £</output>
+          <label><h2>GBP</h2></label>
+          <output>{gbp.toFixed(2)} £ </output>
         </div>
         <div>
-          <button>Calculate</button>
+          <button><h3>Calculate</h3></button>
         </div>
       </form>
     </div>

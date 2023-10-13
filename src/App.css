@@ -1,14 +1,26 @@
-#container {
-  background-color: rgba(200, 195, 195, 0.225);
-}
-#container {
-  padding: 40px;
-}
-#container div{
-  margin-top: 10px;
-  margin-bottom: 10px;
+#container-fluid {
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 200px;
+  padding: 60px;
+  background-color: rgb(176, 47, 47);
+  border-radius: 8px;
+  border: 8px solid whitesmoke;
 }
 label {
-  width: 100px;
+  width: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: medium;
   display: inline-block;
+}
+button {
+  background-color:rgb(142, 164, 243);
+  padding: 4px;
+  border-radius: 6px;
+}
+body {
+  background-color: rgb(40, 47, 149);
 }
